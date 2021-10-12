@@ -98,7 +98,7 @@ HELP_STRINGS = """
 `ʏᴏᴜ ᴄᴀɴ ᴄʜᴏᴏꜱᴇ ᴀɴ ᴏᴘᴛɪᴏɴ ʙᴇʟᴏᴡ, ʙʏ ᴄʟɪᴄᴋɪɴɢ ᴀ ʙᴜᴛᴛᴏɴ..`
 ᴀʟꜱᴏ ʏᴏᴜ ᴄᴀɴ ᴀꜱᴋ ᴀɴʏᴛʜɪɴɢ ɪɴ ᴏᴜʀ ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ"""
 
-START_IMG = "https://telegra.ph/file/63d1ee18f81c92d11210e.mp4"
+START_IMG = "https://te.legra.ph/file/482bd1487d0e9d96a6673.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
  You can support the project [ᴀᴅɪᴛʏᴀ ʜᴀʟᴅᴇʀ](t.me/adityahalder) \
@@ -206,7 +206,7 @@ def start(update: Update, context: CallbackContext):
 
         else:
             first_name = update.effective_user.first_name
-            update.effective_message.reply_video(
+            update.effective_message.reply_photo(
             START_IMG, caption= PM_START_TEXT.format(
                     escape_markdown(first_name),
                     escape_markdown(context.bot.first_name)),
@@ -215,7 +215,7 @@ def start(update: Update, context: CallbackContext):
                 timeout=60,
             )
     else:
-        update.effective_message.reply_video(
+        update.effective_message.reply_photo(
             START_IMG, caption= "<code>Aditya is Here For You❤\nI am Awake Since</code>: <code>{}</code>".format(
                 uptime            
             ),
