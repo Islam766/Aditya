@@ -45,7 +45,8 @@ ujson
 pretty_errors
 TgCrypto
 Pyrogram
-youtube-dl
+yt-dlp
+yt_dlp
 youtube_search_python
 youtube_search
 asyncio
