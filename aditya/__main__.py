@@ -80,7 +80,7 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀᴛ", url="t.me/adityaxbot?startgroup=true"),
+            text="ᴀᴅᴅ ᴍᴇ ɪɴ ᴄʜᴀᴛ", url="t.me/adityaxbot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/adityaserver"),
@@ -89,7 +89,7 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="ᴄᴏᴍᴍᴀɴᴅꜱ ᴀɴᴅ ʜᴇʟᴘ ᴏғ ʙᴏᴛ", callback_data="help_back"),
+        InlineKeyboardButton(text="ᴍʏ ᴏᴡɴᴇʀ", url=f"https://t.me/adityahalder"),
     ],
 ]
 
