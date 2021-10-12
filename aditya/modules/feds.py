@@ -171,7 +171,7 @@ def del_fed(update: Update, context: CallbackContext):
             [
                 [
                     InlineKeyboardButton(
-                        text="?†Ô? Delete Federation ?†Ô?",
+                        text="Delete Federation",
                         callback_data="rmfed_{}".format(fed_id),
                     )
                 ],
@@ -493,7 +493,7 @@ def fed_info(update: Update, context: CallbackContext):
     chat = update.effective_chat
     info = sql.get_fed_info(fed_id)
 
-    text = "<b>?πÔ? Federation Information:</b>"
+    text = "<b>?Â∞ç? Federation Information:</b>"
     text += "\nFedID: <code>{}</code>".format(fed_id)
     text += "\nName: {}".format(info["fname"])
     text += "\nCreator: {}".format(mention_html(owner.id, owner_name))
@@ -546,9 +546,9 @@ def fed_admin(update: Update, context: CallbackContext):
 
     members = sql.all_fed_members(fed_id)
     if len(members) == 0:
-        text += "\n?î± There are no admins in this federation"
+        text += "\n?Óúé There are no admins in this federation"
     else:
-        text += "\n?î± Admin:\n"
+        text += "\n?Óúé Admin:\n"
         for x in members:
             user = bot.get_chat(x)
             text += " ?? {}\n".format(mention_html(user.id, user.first_name))
@@ -2368,7 +2368,7 @@ def fed_owner_help(update: Update, context: CallbackContext):
 @run_async
 def fed_admin_help(update: Update, context: CallbackContext):
     update.effective_message.reply_text(
-        """*?î± Fed Admins:*
+        """*?Óúé Fed Admins:*
  ?? `/fban <user> <reason>`*:* Fed bans a user
  ?? `/unfban <user> <reason>`*:* Removes a user from a fed ban
  ?? `/fedinfo <fed_id>`*:* Information about the specified Federation
@@ -2386,7 +2386,7 @@ def fed_admin_help(update: Update, context: CallbackContext):
 @run_async
 def fed_user_help(update: Update, context: CallbackContext):
     update.effective_message.reply_text(
-        """*?é© Any user:*
+        """*?Óçò Any user:*
  ?? `/fbanstat`*:* Shows if you/or the user you are replying to or their username is fbanned somewhere or not
  ?? `/fednotif <on/off>`*:* Federation settings not in PM when there are users who are fbaned/unfbanned
  ?? `/frules`*:* See Federation regulations\n""",
