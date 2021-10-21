@@ -95,8 +95,10 @@ buttons = [
 
 
 HELP_STRINGS = """
-Здравствуйте
-START_IMG = "https://telegra.ph/file/800a3c04fd52b6b018e11.jpg"
+`ʏᴏᴜ ᴄᴀɴ ᴄʜᴏᴏꜱᴇ ᴀɴ ᴏᴘᴛɪᴏɴ ʙᴇʟᴏᴡ, ʙʏ ᴄʟɪᴄᴋɪɴɢ ᴀ ʙᴜᴛᴛᴏɴ..`
+ᴀʟꜱᴏ ʏᴏᴜ ᴄᴀɴ ᴀꜱᴋ ᴀɴʏᴛʜɪɴɢ ɪɴ ᴏᴜʀ ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ"""
+
+START_IMG = "https://telegra.ph/file/c75e4fe590748070f56f6.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
  You can support the project [ᴀᴅɪᴛʏᴀ ʜᴀʟᴅᴇʀ](t.me/isIam07) \
