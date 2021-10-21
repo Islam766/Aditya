@@ -74,35 +74,34 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-ʜᴇʟʟᴏ, ɪ ᴀᴍ ᴀᴅɪᴛʏᴀ `ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ ᴀɴᴅ ɪ ᴍ ᴠᴇʀʏ ᴘᴏᴡᴇʀꜰᴜʟʟ ʙᴏᴛ! ʜɪᴛ` /help
+`Этот бот-модератор позволяет не только автоматически наводить порядок (антифлуд, антиспам), но и оперативно оповещать админов о жалобах!` /help
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="ᴀᴅᴅ ᴍᴇ ɪɴ ᴄʜᴀᴛ", url="t.me/adityaxbot?startgroup=true"),
+            text="Добавить бота в группу", url="t.me/Islam077_bot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇs", url=f"https://t.me/adityaserver"),
+        InlineKeyboardButton(text="Разработчик", url=f"https://t.me/isIam07"),
         InlineKeyboardButton(
-            text="ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/adityadiscus"
+            text="ꜱᴜᴘᴘᴏʀᴛ", url=f"https://t.me/TeamBORZ95"
         ),
     ],
     [
-        InlineKeyboardButton(text="ᴍʏ ᴏᴡɴᴇʀ", url=f"https://t.me/adityahalder"),
+        InlineKeyboardButton(text="ᴍʏ ᴏᴡɴᴇʀ", url=f"https://t.me/isIam07"),
     ],
 ]
 
 
 HELP_STRINGS = """
-`ʏᴏᴜ ᴄᴀɴ ᴄʜᴏᴏꜱᴇ ᴀɴ ᴏᴘᴛɪᴏɴ ʙᴇʟᴏᴡ, ʙʏ ᴄʟɪᴄᴋɪɴɢ ᴀ ʙᴜᴛᴛᴏɴ..`
-ᴀʟꜱᴏ ʏᴏᴜ ᴄᴀɴ ᴀꜱᴋ ᴀɴʏᴛʜɪɴɢ ɪɴ ᴏᴜʀ ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ"""
+`Этот бот-модератор позволяет не только автоматически наводить порядок (антифлуд, антиспам), но и оперативно оповещать админов о жалобах!"""
 
-START_IMG = "https://te.legra.ph/file/482bd1487d0e9d96a6673.jpg"
+START_IMG = "https://telegra.ph/file/800a3c04fd52b6b018e11.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project [ᴀᴅɪᴛʏᴀ ʜᴀʟᴅᴇʀ](t.me/adityahalder) \
- Supporting isnt always financial! [ᴀᴅɪᴛʏᴀ ᴅɪsᴄᴜs](https://t.me/adityadiscus) \
+ You can support the project [ᴀᴅɪᴛʏᴀ ʜᴀʟᴅᴇʀ](t.me/isIam07) \
+ Supporting isnt always financial! [ᴀᴅɪᴛʏᴀ ᴅɪsᴄᴜs](https://t.me/isIam07) \
  Those who cannot provide monetary support are welcome to help us develope the bot at ."""
 
 IMPORTED = {}
