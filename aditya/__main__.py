@@ -95,8 +95,6 @@ buttons = [
 
 
 HELP_STRINGS = """
-`Этот бот-модератор позволяет не только автоматически наводить порядок (антифлуд, антиспам), но и оперативно оповещать админов о жалобах!"""
-
 START_IMG = "https://telegra.ph/file/800a3c04fd52b6b018e11.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
