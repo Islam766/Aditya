@@ -95,6 +95,7 @@ buttons = [
 
 
 HELP_STRINGS = """
+Здравствуйте
 START_IMG = "https://telegra.ph/file/800a3c04fd52b6b018e11.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
